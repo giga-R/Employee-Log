@@ -1,0 +1,52 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#A6E3E9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU\n\n"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#222831"
+        android:textSize="25dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/addbtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#71C9CE"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:text="add employee"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/searchbtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:background="#71C9CE"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="search employee"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:id="@+id/logoutbtn"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="18dp"
+        android:fontFamily="serif-monospace"
+        android:background="#3CC9D1"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="logout"/>
+
+</LinearLayout>
